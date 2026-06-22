@@ -20,14 +20,6 @@
 - 관리자 전용 게시글 작성/수정 화면
 - 관리자 전용 카테고리 관리 화면
 
-## 개발 실행
-
-```powershell
-dotnet restore
-dotnet ef database update
-dotnet run
-```
-
 ## 관리자 계정 설정
 
 `appsettings.Development.json`은 Git에 포함하지 않습니다. 처음 실행 전 `appsettings.Development.example.json`을 복사해서 비밀번호를 변경하거나, 사용자 시크릿으로 설정하세요.
